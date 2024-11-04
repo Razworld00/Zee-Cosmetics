@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zee Cosmetics & Hiring Services</title>
+    <!-- Updated stylesheet link to work on Neocities -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="overlay">
+            <h1><img src="assets/logo.jpg" alt="logo Photo" style="vertical-align: middle; height: 50px; margin-right: 10px;"> Zee Cosmetics & Hiring Services 💄🎉</h1>
+
+            <p>Your One-Stop Solution for Events & Beauty Products</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#products">Our Products</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <section id="about" class="section centered">
+        <h2>About Us</h2>
+        <p>Welcome to Zee Cosmetics & Hiring Services, your one-stop solution for events and beauty products. Our mission is to deliver exceptional value through top-quality event rentals and carefully curated beauty products, enhancing the success and beauty of every occasion.</p>
+    </section>
+
+    <section id="services" class="section centered">
+        <h2>Our Services</h2>
+        <p>🌟 <strong>Event Rentals:</strong> Transform any occasion with premium event rentals, elegant tents, sound systems (coming soon!), and catering equipment for any event, big or small.</p>
+        <p>💄 <strong>Cosmetics & Beauty Products:</strong> Luxurious cosmetics and fragrances to elevate your beauty and skincare essentials.</p>
+        <p>👩‍💼 <strong>Professional Event Support:</strong> Comprehensive event planning and technical support to ensure seamless execution.</p>
+    </section>
+    
+    <section id="products" class="section centered">
+        <h2>Our Products</h2>
+        
+        <!-- Sunglasses Category -->
+        <div class="product-category">
+            <h3>🌞 Sunglasses</h3>
+            <div class="product">
+                <img src="assets/grey_lens_sunglasses.jpg" alt="Grey Lens Sunglasses" class="responsive-img">
+                <p>Grey Lens Sunglasses - R250</p>
+                <button onclick="addToCart('Grey Lens Sunglasses', 250)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/black_round_sunglasses.jpg" alt="Black Round Sunglasses" class="responsive-img">
+                <p>Black Round Sunglasses - R200</p>
+                <button onclick="addToCart('Black Round Sunglasses', 200)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/gold_aviator_sunglasses.jpg" alt="Gold Aviator Sunglasses" class="responsive-img">
+                <p>Gold Aviator Sunglasses - R300</p>
+                <button onclick="addToCart('Gold Aviator Sunglasses', 300)">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Handbags & Wallets Category -->
+        <div class="product-category">
+            <h3>👝 Handbags & Wallets</h3>
+            <div class="product">
+                <img src="assets/red_wallet.jpg" alt="Red Wallet" class="responsive-img">
+                <p>Red Wallet - R150</p>
+                <button onclick="addToCart('Red Wallet', 150)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/beige_textured_handbag.jpg" alt="Beige Textured Handbag" class="responsive-img">
+                <p>Beige Textured Handbag - R450</p>
+                <button onclick="addToCart('Beige Textured Handbag', 450)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/silver_chain_handbag.jpg" alt="Silver Chain Handbag" class="responsive-img">
+                <p>Silver Chain Handbag - R500</p>
+                <button onclick="addToCart('Silver Chain Handbag', 500)">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Perfume Section -->
+<section id="perfumes" class="section">
+    <h2>Our Perfumes</h2>
+    <div class="product-category">
+        <h3>💐 Perfumes</h3>
+        
+        <!-- Female Perfume -->
+        <div class="product">
+            <img src="assets/perfume-female.jpg" alt="Female Perfume" class="responsive-img">
+            <p>Female Perfume - R65</p>
+            <button onclick="addToCart('Female Perfume', 65)">Add to Cart</button>
+        </div>
+
+        <!-- Male Perfume -->
+        <div class="product">
+            <img src="assets/perfume-male.jpg" alt="Male Perfume" class="responsive-img">
+            <p>Male Perfume - R65</p>
+            <button onclick="addToCart('Male Perfume', 65)">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+
+        
+       
+
+        <!-- Shoes Category -->
+        <div class="product-category">
+            <h3>👠 Shoes</h3>
+            <div class="product">
+                <img src="assets/beige_block_heel_shoes.jpg" alt="Beige Block Heel Shoes" class="responsive-img">
+                <p>Beige Block Heel Shoes - R350</p>
+                <button onclick="addToCart('Beige Block Heel Shoes', 350)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/red_slingback_shoes.jpg" alt="Red Slingback Shoes" class="responsive-img">
+                <p>Red Slingback Shoes - R400</p>
+                <button onclick="addToCart('Red Slingback Shoes', 400)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/silver_high_heels.jpg" alt="Silver High Heels" class="responsive-img">
+                <p>Silver High Heels - R500</p>
+                <button onclick="addToCart('Silver High Heels', 500)">Add to Cart</button>
+            </div>
+        </div>
+        
+        <!-- Event Equipment Category -->
+        <div class="product-category">
+            <h3>🎉 Event Equipment</h3>
+            <div class="product">
+                <img src="assets/white_folding_table.jpg" alt="White Folding Table" class="responsive-img">
+                <p>White Folding Table - R300</p>
+                <button onclick="addToCart('White Folding Table', 300)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/catering_pot_set.jpg" alt="Catering Pot Set" class="responsive-img">
+                <p>Catering Pot Set - R800</p>
+                <button onclick="addToCart('Catering Pot Set', 800)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/5x10_tent.jpg" alt="5x10 Tent" class="responsive-img">
+                <p>5x10 Tent with Windows - R1,500</p>
+                <button onclick="addToCart('5x10 Tent', 1500)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section centered">
+        <h3>Contact Us</h3>
+        <p>
+            📧 Email: <a href="mailto:mihlalizmadlala@gmail.com">mihlalizmadlala@gmail.com</a>
+        </p>
+        <p>
+            📞 Phone: +27 65 988 5335
+        </p>
+        <form>
+            <p>Name: <input type="text" name="name"></p>
+            <p>Email: <input type="email" name="email"></p>
+            <p>Message: <textarea name="message"></textarea></p>
+            <button class="send-message">Send Message</button>
+        </form>
+        <p>© 2024 Zee Cosmetics & Hiring Services. All rights reserved. 🌐</p>
+        <p>Created by: RazNet Solutions - bathie28@gmail.com</p>
+    </section>
+    
